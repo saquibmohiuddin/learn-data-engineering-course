@@ -14,7 +14,7 @@ agenda:
 """
 
 # 1. Load JSONs from file
-with open('./instructor_resources/1_python2/data/data_subset.json') as f:
+with open('././instructor_resources/1_python2/data/data_subset.json') as f:
     employees = json.load(f)
     pprint(employees)
 
@@ -74,5 +74,5 @@ pprint(transactions_list_dicts)
 pprint(json.dumps(transactions_list_dicts))
 
 # saving as file
-with open('./2_python_for_data_engineers/data/updated_data.json', 'w') as f:
+with open('././2_python_for_data_engineers/data/updated_data.json', 'w') as f:
     json.dump(transactions_list_dicts, f)
